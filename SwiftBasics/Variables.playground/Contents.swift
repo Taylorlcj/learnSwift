@@ -1,5 +1,13 @@
 import Foundation
 
+let myName = "Taylor"
+let yourName = "Foo"
 
-let
-var
+var names = [
+myName,
+yourName
+]
+names.append("Bar")
+names.append("Bar")
+
+
