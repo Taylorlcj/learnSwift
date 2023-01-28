@@ -10,6 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Button("My first Button") {
+                print("Hello World!")
+            }
+            .tint(.pink)            //changes the color fo the Button
+            Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label@*/Text("Label")/*@END_MENU_TOKEN@*/
+            }
+            .tint(.pink)            //changes the color of the toggle
             Image("pink-roses")
                 .resizable()
                 .scaledToFit()
