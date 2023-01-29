@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Button("My first Button") {
+            Button("My first Button") {     //use the + sign in the top right to drag it down
                 print("Hello World!")
             }
             .tint(.pink)            //changes the color fo the Button
