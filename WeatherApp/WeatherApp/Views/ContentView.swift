@@ -16,6 +16,7 @@ struct ContentView: View {
                 .environmentObject(locationManager)
         }
         .background(.blue)
+        .preferredColorScheme(.dark)
     }
 }
 
